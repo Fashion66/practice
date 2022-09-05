@@ -1,0 +1,79 @@
+90/*样式重置*/
+body,p,h1,h2,h3,h4{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	border: none;
+	vertical-align: middle;
+	/*图片对齐*/
+}
+i{
+	font-style: normal; 
+}
+a{
+	text-decoration: none;
+	color: #3c3c3c;
+	color: inherit; 
+}
+input,button{
+	margin: 0;
+	padding: 0;
+}
+button{
+	outline: none;
+	/*焦点效果取消*/
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    color: #3c3c3c;
+    background-color:#e8e2e0;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right; 
+}
+.layer{
+	width: 1190px;
+	margin: 0 auto;
+}
+.c4{
+	color: #f40;
+}
+.bc4{
+	background-color: #f40;
+	color: #fff; 
+}
+.c5{
+	color: #f50;
+}
+.bc5{
+	background-color: #f50;
+	color: #fff; 
+}
+.c9{
+	color: #33c900; 
+}
+.mt10{
+	margin-top: 10px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.mr7{
+	margin-right: 7px;
+}
+.mr5{
+	margin-right: 5px; 
+}
