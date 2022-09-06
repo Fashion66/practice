@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+html,body,.wrapper{
+	widows: 100%;
+	height: 100%;
+	background-color: #cecece;
+}
+.wrapUl{
+	width: 80%;
+	height: 80%;
+	position: relative;
+	margin: 50px auto;
+	perspective: 700px;
+}
+.wrapUl li{
+	position: absolute; 
+	background-color: #FFF;
+	transform-style: preserve-3d;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	transform: scale(0.9);
+}
+img{
+	width: 100%;
+	height: 100%;
+}
