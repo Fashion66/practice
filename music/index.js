@@ -24,7 +24,7 @@ function test(){
 	for(var te in texts){
     if(texts[te] != ""){
     var time = texts[te].split(']');
-    time[0]=(Number(time[0].split(":")[0]*60)+Math.round(time[0].split(":")[1]));
+    time[0]=(Number(time[0].split(":")[0]*60)+Math.round(time[0].split(":")[1])-30);
     j[time[0]]=time[1];
     }}
 JSON.stringify(j);
