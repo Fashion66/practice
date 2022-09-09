@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>canvas</title>
+	<link rel="stylesheet" href="./index.css">
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+	<div class="warpper">
+		<canvas width="1000" height="600" class="cavs"></canvas>
+		<ul class="btn-list">
+			<li><input type="color" id="colorBoard" value="#ffffff"></li>
+			<li><input type="button" value="清屏" id="clearBoard"></li>
+			<li><input type="button" value="橡皮" id="eraser"></li>
+			<li><input type="button" value="撤销" id="rescind"></li>
+			<li><input type="range" value="线条" min = '1' max = '30' id="lineRuler"></li>
+		</ul>
+	</div>
+	<script src="./index.js"></script>
+</body>
+</html>
