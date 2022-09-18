@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./demo-cnblog.css" class="css"> -->
+    <link rel="stylesheet" href="./iconfont.css">
+    <script>
+        function check(){
+        var w = document.documentElement.clientWidth;
+        var h = document.documentElement.clientHeight;
+        var css = document.createElement('link');
+        console.log(w,h)
+        if(w > h){
+            css.setAttribute("href","./horizontal.css");
+            css.setAttribute("rel","stylesheet");
+            css.setAttribute("type","text/css");
+            document.head.appendChild(css);
+        }else{
+            css.setAttribute("href","./vertical.css");
+            css.setAttribute("rel","stylesheet");
+            css.setAttribute("type","text/css");
+            document.head.appendChild(css);
+        }
+    }
+    check();
+    </script>
+    <title>cnblog</title>
+</head>
+<body>
+    <div class="left">
+        <span class="title">CNBLOG</span>
+        <ul class="up">
+            <li class="menu">MENU</li>
+            <li class="blog bd"><a href="https://www.cnblogs.com/" target="_blank"><span class="iconfont icon-bokeyuan"></span><span>博客园</span></a></li>
+            <li class="home bd"><a href="https://fashion66.github.io/practice/404" target="_blank"><span class="iconfont icon-shouye"></span><span>首页</span></a></li>
+            <li class="essay bd"><a href="https://fashion66.github.io/practice/404" target="_blank"><span class="iconfont icon-biji"></span><span>笔记</span></a></li>
+            <li class="draf bd"><a href="https://fashion66.github.io/practice/404" target="_blank"><span class="iconfont icon-caogao"></span><span>草稿</span></a></li>
+            <li class="contact bd"><a href="https://fashion66.github.io/practice/404" target="_blank"><span class="iconfont icon-lianxi"></span><span>联系</span></a></li>
+        </ul>
+        <ul class="down">    
+            <li class="links">LINKS</li>
+            <li class="bili bd"><a href="https://www.bilibili.com/" target="_blank">哔哩哔哩</a></li>
+            <li class="git bd"><a href="https://github.com/" target="_blank">GitHub</a></li>
+            <li class="kanxue bd"><a href="https://www.pediy.com/" target="_blank">看雪</a></li>
+            <li class="wuai bd"><a href="https://www.52pojie.cn/" target="_blank">吾爱破解</a></li>
+            <li class="repacks bd"><a href="https://lrepacks.net/" target="_blank">repacks</a></li>
+            <li class="baidu bd"><a href="https://www.baidu.com" target="_blank">百度</a></li>
+            <li class="google bd"><a href="https://www.google.com" target="_blank">Google</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <div class="date">
+            <img style="width: 100%;height:100%;opacity: 1;" src="https://img2.baidu.com/it/u=1917568951,1163926561&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=753" alt="">
+        </div>
+        <div class="illustrate">
+            <a href="https://www.cnblogs.com/toki-plus" target="_blank">
+            <span>
+                仿博客园网站
+            </span>
+        </a>
+        </div>
+        <div class="demo">
+            <ul>
+                <li>练手小demo</li>
+                <li class="bd"><a href="https://fashion66.github.io/practice/monster/index.html" target="_blank">loading界面</a></li>
+                <li class="bd"><a href="https://fashion66.github.io/practice/pintu/index.html" target="_blank">拼图小游戏</a></li>
+                <li class="bd"><a href="https://fashion66.github.io/practice/music/index.html" target="_blank">音乐可视化</a></li>
+                <li class="bd"><a href="https://fashion66.github.io/practice/canvas/index.html" target="_blank">Canvas绘图板</a></li>
+                <li class="bd"><a href="https://fashion66.github.io/practice/tb/index.html" target="_blank">静态淘宝首页</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="search">
+        <span class="iconfont icon-sousuo"></span>
+        <input type="text" class="searchBox" placeholder="Search">
+        <span class="iconfont icon-youjian bd"></span>
+        <span class="iconfont icon-tixing bd"></span>
+        <span class="iconfont icon-shuzhuangtu bd"></span>
+    </div>
+    <div class="center">
+            <img src="https://img0.baidu.com/it/u=2501362210,1354277332&fm=253&fmt=auto&app=120&f=JPEG?w=1422&h=800" alt="">
+            <div class="table">
+                <span class="name">FASHION</span><span class="message">男 &nbsp;&nbsp;22岁&nbsp;&nbsp; 湖北黄冈</span><span class="signature">有人恋爱，有人开车看海，有人leetcode第一题做不出来!<i>|</i></span>
+                <img src="https://img2.baidu.com/it/u=2708726027,898681604&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" alt="">
+                <ul>
+                    <li class="bd"> <a href="https://account.cnblogs.com/signin" target="_blank">收藏</a></li>
+                    <li class="bd"> <a href="https://account.cnblogs.com/signin" target="_blank">小组</a></li>
+                    <li class="bd"> <a href="https://account.cnblogs.com/signin" target="_blank">闪存</a></li>
+                    <li class="bd"> <a href="https://q.cnblogs.com/" target="_blank">博问</a></li>
+                </ul>
+            </div>
+        <div class="infor">
+           <ul class="blog">
+            <li>
+                <div class="title">就是让他闲着</div>
+                <div class="content">	
+
+                    作者：Jenny乔
+                    
+                    　　有人说，想要看一个人是否优秀，那就看他闲下来做什么。
+                    
+                     　　这世上有人忙里偷闲，利用坐车和排队的间隙，读书，思考，写作，也有人终日无所事事，虚度光阴。
+                    
+                    　　闲，并不是一个人的福气。相反，废掉一个人最快的方式就是让他闲下来。
+                    
+                    　　正如罗曼·罗兰所说：“生活中最沉重的负担不是工作，而是无聊。”
+                    
+                    　　01
+                    
+                    　　闲着闲着，一个人就废了。
+                    
+                    　　蔡康永曾说过：“当你没有上进心的时候，你是在杀人，你不小心，杀了你自己。”
+                    
+                    　　朋友大学毕业后，凭着高学历进了一家大公司，以为从此一生安稳，本职工作完成后便悠闲地追剧。
+                    
+                    　　身边有同事下班后忙着考证、进修时，她嗤之以鼻，认为别人学历不如自己，再怎么努力也无济于事。
+                    
+                    　　虽然每天按时上下班，和同事做着相似的工作，但只有潮水退去的时候，才能知道谁在裸泳。
+                    
+                    　　不过五年时间，行业环境影响下，公司面临改革，需要裁员，高学历出身的她赫然在列。
+                    
+                    　　彼时才发现，面临初出茅庐的年轻人，自己的体力和脑力都已经拼不过，几年来累积下来的阅历和经验没有转化成核心竞争力。
+                    
+                    　　毕业八年的她被迫重返人才市场，但彼时的她与毕业时相比毫无长进，面试屡屡碰壁。
+                    
+                    　　李尚龙曾说：
+                    
+                    　　“真正的安稳是历经世事后的淡薄，你还没有见过世界，就想隐退山林，到头来只会是井底之蛙。”
+                    
+                    　　人生如逆水行舟，不进则退。
+                    
+                    　　优胜劣汰的世界里，你必须不断提升自己的价值。
+                    
+                    　　被窝里的温度，远不如未来的收获温暖；书本里的故事，总有你学到的人生，贪图安逸，只会让生命生锈。
+                    
+                    　　常有人感叹中年危机来得猝不及防，但其实在它到来之前，你有无数次让它绕开你的机会，但也许正是因为你选择了安逸，才给了它可乘之机。
+                    
+                    　　02
+                    
+                    　　人活到极致，就是不愿意闲下来。
+                    
+                    　　沈从文曾说：我一生最怕是闲，一闲就把生命的意义全失去了。
+                    
+                    　　他的学生汪曾祺曾在文章里这样描述沈从文：
+                    
+                    　　冬天屋里生不起火，用被子围起来，还是不停地写。
+                    
+                    　　到了晚年，他也不愿闲下来，参考大量资料整理完成了《中国古代服饰研究》。
+                    
+                    　　别人享乐时候，他在写，有人质疑抨击他的时候，他还在写。
+                    
+                    　　让忙碌成为生活的常态，是实现人生价值的必经之路。
+                    
+                    　　人生有许多美好，无非是长期坚持的结果，而那些厉害的人，无一例外都过着自律的生活。
+                    
+                    　　“闲不住”从来都不是人们所说的毛病和坏事，而是上天给的嘉奖。
+                    
+                    　　一口气爬上10层楼梯不带喘气，这对一个年轻人来说都很难，但91岁的老人李绍鲁做到了。
+                    
+                    　　他的养生秘诀就是：不让自己闲下来。
+                    
+                    　　每天早上七点起床，锻炼一小时，八点吃完早餐，出门散步，九点半回来读书看报，下午听音乐、练书法，再继续锻炼一小时，抽空还帮老伴做家务。
+                    
+                    　　有句话说：闲人愁多，懒人病多，忙人快活！
+                    
+                    　　的确如此。当一个人闲下来，他的心灵和身体都将受到折磨。闲下来会容易胡思乱想，自怨自艾，而身体上的懒惰也会让我们离健康越来越远。
+                    
+                    　　相反，忙碌，却是世间珍贵的良药，忙起来，生活便有了奔头。
+                    
+                    　　日本作家石黑一雄曾说：年老之后 当我回顾自己的一生，看到我用毕生的精力去捕捉那个世界独特的美，我相信我会心满意足的，没有人能使我相信我是虚度了光阴。
+                    
+                    　　台湾一群平均年龄81岁的老人，骑着摩托车环游台湾的故事触动了很多人。
+                    
+                    　　不老骑士说：“走，我们骑着欧兜迈（摩托车）环台去！ ”
+                    
+                    　　他们便出发了，从南到北，从黑夜到白天，环岛十三天。他们当中有2位曾患癌症，4位需要带助听器，8位患了心脏病，每个人都有关节退化的毛病。
+                    
+                    　　身体和心灵总要有一个在路上，这件事与年龄无关。安静地待在医院里，是一种活法，勇敢地走出去也是一种活法。
+                    
+                    　　忙碌且艰难地活着，虽然辛苦，但如果有来世，很多人还是会选择那种滚烫的人生，只有那样才能实现人生的价值。
+                    
+                    　　03
+                    
+                    　　太闲的人生，其实是一场灾难。
+                    
+                    　　茨威格曾说：
+                    
+                    　　命运所赠送的每一份礼物，都暗自标好了价格。
+                    
+                    　　英国有位男子，因为中奖从一贫如洗的垃圾工变成了千万富翁。
+                    
+                    　　他辞去工作，挥霍无度地购买豪宅名车、吸毒、嫖娼和赌博。
+                    
+                    　　在短短7年中败光了970万英镑，重新沦为穷光蛋，而妻子女儿也双双弃他而去。
+                    
+                    　　物质可以满足一个人一时的快乐，但当人生只剩下享乐和放纵，就难以体会到发自内心的快乐和成就感。
+                    
+                    　　正如爱因斯坦所说：
+                    
+                    　　“我从来不把安逸和快乐看作是生活目的本身——这种伦理基础，我叫它猪栏的理想。”
+                    
+                    　　华人首富李嘉诚，一生征战商界，拥有无数财富，即便这样直到90岁他才选择退休。
+                    
+                    　　没退休之前，不论几点睡觉，他总在清晨5点59分闹铃响后起床。随后，读新闻，打一个半小时高尔夫，再去办公室，开始工作，坚持数十年如一日。
+                    
+                    　　李嘉诚的人生正印证了那句话：一万年太久，只争朝夕。
+                    
+                    　　闲下来，你可能会快乐一阵子，但重复和虚无，有一天会让你感到厌倦。
+                    
+                    　　忙起来可能会很累，你需要把时间分成好几份，甚至像挤海绵那样挤时间，但却可以让我们收获到很多，比如财富、幸福、内心的充实。
+                    
+                    　　人生数载几十年，我们总要为这个世界留下些什么。永远不要把“闲”当做上天的恩赐，那些让你快乐的东西，有一天也会毁灭你。
+                    
+                    　　04
+                    
+                    　　《菜根谭》有言：人生太闲，则别念窃生；太忙，则真性不现。
+                    
+                    　　诚然，太忙或太闲都不可取，忙中有闲，闲中有忙，有事做，有人爱，有所期待，才是人生最圆满的状态。
+                    
+                    　　当你开始懂得珍惜时间，利用好时间，合理安排自己的生活，就是在延长生命的长度，拓宽人生的厚度，提升人生的高度。
+                    
+                    　　所谓不负此生，就是不曾辜负生命中的每个阶段。</div>
+                <div class="appraise">
+                    <span class="iconfont icon-guankan">&nbsp;2</span>
+                    <span class="iconfont icon-pinglun">&nbsp;5</span>
+                    <span class="iconfont icon-shoucang">&nbsp;0</span>
+                </div>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ul>
+        </div>
+    </div>
+</body>
+</html>

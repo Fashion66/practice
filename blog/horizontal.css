@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{font-size: 100%;}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(./bg.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+:root{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+ul,li{
+    list-style: none;
+}
+.left{
+    background:rgba(255,255,255,0.7);
+    top: 0;
+    position: sticky;
+    outline: 1px solid black;
+    float: left;
+    width: 11vw;
+    height: 100vh;
+    color: rgb(28, 29, 47);
+}
+.left .title{
+    position: absolute;
+    height: 10vh;
+    line-height: 4rem;
+    width: 12rem;
+    left: -7vw;
+    top:5vh;
+    text-indent: 12rem;
+    font-size: 3rem;
+}
+.left .up{
+    position: absolute;
+    left: 2vw;
+    top: 15vh;
+    width: 8vw;
+}
+.left .up li{
+    color: rgb(105, 105, 105);
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+.left .up .menu{
+    font-size: 2.4rem;
+}
+.left .up span{
+    margin: 0 0.5rem;
+}
+.left .down{
+    position: absolute;
+    left: 2vw;
+    top: 50vh;
+    width: 8vw;
+}
+.left .down .links{
+    font-size: 2.4rem;
+}
+.left .down li{
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+.bd:hover{
+    color:black;
+    font-weight: bolder;
+    box-shadow:  0 0 50px 1px rgb(0, 247, 255);
+   letter-spacing: 2px;
+}
+.right{
+    background-color:rgba(255,255,255,0.7);
+    position:sticky;
+    top: 0;
+    outline: 1px solid black;
+    float: right;
+    width: 15vw;
+    height: 100vh;
+}
+.right .date{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 30px;
+    background-color:#fff
+}
+.right .illustrate{
+    /* outline: 1px solid black; */
+    width: 15vw;
+    height: 20vh;
+    background-color:#fff;
+    font-size: 2rem;
+    line-height: 20vh;
+    text-align: center;
+}
+.right .demo li{
+    font-size: 1.5rem;
+    line-height: 5vh;
+    text-align: center;
+    /* outline: 1px solid black; */
+    width: 15vw;
+    height: 5vh;
+    margin-top: 2vh;
+}
+.search{
+    background:#fff;
+    position: sticky;
+    top: 0;
+    /* outline: 1px solid black; */
+    margin-left: 11vw;
+    width:89vw ;
+    height: 5vh;
+}
+.search .icon-sousuo{
+    position: absolute;
+    left: 8%;
+    top:0.5rem;
+    z-index: 1;
+    font-size: 24px;
+}
+.search .icon-youjian{
+    position: absolute;
+    left: 87%;
+    top:0.8rem;
+    z-index: 1;
+    font-size: 16px;
+}
+.search .icon-tixing{
+    position: absolute;
+    left: 90%;
+    top:0.5rem;
+    z-index: 1;
+    font-size: 24px;
+}
+.search .icon-shuzhuangtu{
+    position: absolute;
+    left: 93%;
+    top:0.4rem;
+    z-index: 1;
+    font-size: 24px;
+}
+.search .searchBox{
+    position: absolute;
+    left: 7%;
+    top:0.5rem;
+    width: 70%;
+    height:70%;
+    border: none;
+    background-color: blanchedalmond;
+    text-indent: 6rem;   
+}
+.center{
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    /* margin-top:2vh; */
+    margin-left:11vw ;
+    width: 74vw;
+    height:95vh;
+    /* border: 2px solid #56e1f4; */
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.center img{
+    position: absolute;
+    object-fit: cover;
+    left: 2vw;
+    top: 2vh;
+    width: 70vw;
+    height:30vh;
+    opacity: 1;
+    border-radius: 5px;
+}
+.center .table{
+    position: absolute;
+    left: 2vw;
+    top: 28vh;
+    height: 6vh;
+    width: 70vw;
+    background:#fff;
+    border-radius: 5px;
+}
+.center .table .name{
+    position: absolute;
+    font-size: 4rem;
+    left: 20vw;
+    top:-13vh;
+    color:aqua;
+}
+.center .table .message{
+    position: absolute;
+    top:-5vh;
+    left: 22vw;
+    font-size:1.5rem ;
+    color: aquamarine;
+}
+.center .table .signature{
+    text-align: left;
+    text-indent: 2em;
+    position: absolute;
+    width:30vw;
+    top:-18vh;
+    left: 35vw;
+    font-size:2rem ;
+    font-family: "SimSun";
+    color: #FFF;
+}
+.center .table .signature i{
+    font-style:normal;
+    font-weight: bolder;
+    margin-left: 0.2em;
+    animation: ds 400ms alternate infinite;
+}
+@keyframes ds {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.center .table img{
+    width:auto;
+    height: 300%;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    left: 8vw;
+    top:-16vh;
+}
+.center .table ul{
+    margin-top: 1vh;
+    margin-left: 16vw;
+    color: rgb(105, 105, 105);
+}
+.center .table ul li{
+    float: left;
+    font-size: 2rem;
+    margin-left: 5vw;
+}
+.center .infor{
+    margin-top: 35vh;
+    margin-left: 2vw;
+    width: 70vw;
+    height: auto;
+}
+.center .infor ul{
+    margin-left: -2vw;
+}
+.center .infor ul li{
+    float: left;
+    width: 22vw;
+    height: 35vh;
+    margin-left: 2vw;
+    margin-top:4vh;
+    background-color:rgba(255,255,255,0.6);
+    border-radius: 5px;
+}
+.center .infor ul li:hover{
+    box-shadow: 0 0 20px 2px #FFF;
+}
+.center .infor ul li .title{
+    width:22vw;
+    height:8vh;
+    font-size:2rem;
+    background: rgba(255,255,255,0.7);
+    line-height: 8vh;
+    text-align: left;
+    text-indent: 2em;
+}
+.center .infor ul li .title:hover{
+    color: rgb(0, 138, 138);
+}
+.center .infor ul li .content{
+    line-height: 3vh;
+    background: rgba(255,255,255,0.7);
+    padding: 0  2vw;
+    width: 18vw;
+    height: 21vh;
+    text-indent: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.center .infor ul li .appraise{
+    width: 22vw;
+    background-color: #fff;
+    border-top: 1px solid rgb(129, 129, 129);
+    height: 6vh;
+    border-radius: 5px;
+    font-size: 32px;
+}
+.center .infor ul li .appraise span{
+    margin-right: 2vw;
+    line-height:6vh;
+    font-size: 20px;
+}

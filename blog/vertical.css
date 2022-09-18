@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(./660295685b98b.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.bd:hover{
+    color:black;
+    font-weight: bolder;
+    box-shadow:  0 0 50px 1px rgb(0, 247, 255);
+   letter-spacing: 2px;
+}
+.left{
+    position: sticky;
+    overflow: hidden;
+    outline: 2px solid #FFF;
+    width: 100vw;
+    height:13vh;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+.left .title{
+    font-size: 24px;
+    letter-spacing: 24px;
+}
+.left  li{
+    float: left;
+    margin-left: 3vw;
+    margin-top: 1vh;
+}
+.left .down {
+    margin-top: 4vh;
+}
+.right{
+    display: none;
+}
+.search{
+    outline: 2px solid #FFF;
+    position: relative;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+.search input{
+    background-color: rgba(255, 255, 255, 0);
+    width: 42vw;
+    margin-left: 8vw;
+    text-indent: 2rem;
+    margin-top: 1vh;
+}
+.search .icon-sousuo{
+    position:absolute;
+    left: 9vw;
+    top:1.5vh;
+}
+.search .icon-youjian{
+    position: absolute;
+    left: 60vw;
+    z-index: 1;
+    font-size: 16px;
+    margin-top: 1vh;
+}
+.search .icon-tixing{
+    position: absolute;
+    left: 70vw;
+    z-index: 1;
+    font-size: 24px;
+    top:0.5vh;
+}
+.search .icon-shuzhuangtu{
+    position: absolute;
+    left: 80vw;
+    z-index: 1;
+    font-size: 24px;
+    top:0.5vh;
+}
+.center{
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    outline: 1px solid #FFF;
+    width:100%;
+    height: 90vh;
+    background-color:rgba(255, 255, 255, 0.6);
+}
+.center img{
+    position: absolute;
+    object-fit: cover;
+    width:100%;
+    height:22vh;
+    opacity: 1;
+    border-radius: 5px;
+}
+.center .table .name{
+    position:absolute;
+    font-size: 3rem;
+    left: 28vw;
+    top:10vh;
+    color:aqua;
+}
+.center .table .message{
+    position: absolute;
+    top:18vh;
+    left: 30vw;
+    font-size:1rem ;
+    color: aquamarine;
+}
+.center .table img{
+    width:16%;
+    height:auto;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    left: 8vw;
+    top:14vh;
+    z-index: 1;
+}
+.center .table .signature{
+    text-align: left;
+    text-indent: 2em;
+    position: absolute;
+    width:94vw;
+    top:3vh;
+    margin-left: 8vw;
+    font-size:1.5rem ;
+    font-family: "SimSun";
+    color: #FFF;
+}
+.center .table .signature i{
+    font-style:normal;
+    font-weight: bolder;
+    margin-left: 0.2em;
+    animation: ds 400ms alternate infinite;
+}
+@keyframes ds {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.center .table ul{
+    position: absolute;
+    top: 22vh;
+    margin-top: 1vh;
+    margin-left: 22vw;
+    color: rgb(105, 105, 105);
+}
+.center .table ul li{
+    float: left;
+    font-size: 1rem;
+    margin-left: 5vw;
+}
+.center .infor{
+    position: absolute;
+    top: 23vh;
+    width:100%;
+    height: auto;
+}
+.center .infor ul{
+    margin-left: 2vw;
+}
+.center .infor ul li{
+    float: left;
+    width: 28vw;
+    height: 25vh;
+    margin-right: 2vw;
+    margin-top:4vh;
+    background-color:rgba(255,255,255,0.6);
+    border-radius: 5px;
+}
+.center .infor ul li .title{
+    width:28vw;
+    height:5vh;
+    font-size:1rem;
+    background: rgba(255,255,255,0.7);
+    line-height: 5vh;
+    text-align: left;
+    text-indent: 2em;
+}
+.center .infor ul li .content{
+    font-size: 2px;
+    line-height: 2vh;
+    background: rgba(255,255,255,0.7);
+    padding: 0  2vw;
+    width: 24vw;
+    height: 16vh;
+    text-indent: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.center .infor ul li .title:hover{
+    color: rgb(0, 138, 138);
+}
+.center .infor ul li:hover{
+    box-shadow: 0 0 20px 2px #FFF;
+}
+.center .infor ul li .appraise{
+    width: 28vw;
+    background-color: #fff;
+    border-top: 1px solid rgb(129, 129, 129);
+    height: 4vh;
+    border-radius: 5px;
+}
+.center .infor ul li .appraise span{
+    margin-right: 2vw;
+    line-height:4vh;
+    font-size: 8px;
+    margin-left: 2vw;
+}
